@@ -90,7 +90,7 @@ const Formulario = ({ newCitas }) => {
         <textarea
           name="sintomas"
           className="u-full-width"
-          vale={ sintomas }
+          value={ sintomas }
           onChange={ actualizarCita }
         ></textarea>
         <button
